@@ -1,0 +1,155 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 2rem 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+h3 {
+    font-size: 35px;
+}
+
+header{
+background: url(/img/Background_header.png) no-repeat center top /cover;
+height: 100vh; /* расстягивает картинку во всю высоту экрана пользователя*/
+
+
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.heading{
+    width: 100%;
+    margin: 0% auto;
+    background-color: black;
+    opacity: 0.7;   /*ПРОЗРАЧНОСТЬ */
+    
+}
+
+nav{
+    padding-right: 193px;
+    float: right;
+    margin-top: 25px;
+    
+}
+
+.menu{
+
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: right;
+    display: block;
+    margin-right: 50px;
+    
+}
+.menu a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+.menu li :hover{
+    color: #fa0000;
+    font-weight: bold;
+}
+
+.title{
+    height: 100%;
+}
+
+h1 span{
+    color: white;
+}
+
+h1{
+    font-family: orbitron , sans-serif;
+    font-size: 80px;
+    color: white;
+    padding-top: 17%;
+    text-align: center;
+}
+
+.title p{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.title :nth-child(2){
+    margin-top: 1%;
+}
+.title :nth-child(3){
+    margin-top: 5px;
+}
+
+
+
+#header img{
+    padding-left: 193px;
+    padding-top: 10px;
+}
+
+#About{
+    padding-bottom: 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.content{
+    padding-left: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+.content h3{
+    padding-top: 35px;
+}
+
+.content p{
+    padding-top: 30px;
+
+}
+
+.skills{
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto 0;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.skills img{
+    width: 55px;
+    height: 50px;
+    padding-top: 30px;
+    margin: 10px;
+}
+
+
